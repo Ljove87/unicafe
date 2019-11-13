@@ -1,7 +1,7 @@
-import axios from 'axios'
+import axios from 'axios';
 
 
-const baseUrl = 'http://localhost:3001/notes'
+const baseUrl = 'http://localhost:3001/notes';
 
 const getAll = async () => {
   const request = axios.get(baseUrl)
